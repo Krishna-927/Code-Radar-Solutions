@@ -9,6 +9,5 @@ int main() {
     scanf("%d %d",&a,&b);
     int c=a+b;
     (c<0)?printf("True"):printf("False");
-    printf("%s", welcome());
     return 0;
 }
