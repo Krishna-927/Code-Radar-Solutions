@@ -7,7 +7,8 @@ char* welcome() {
 int main() {
     int a,b;
     scanf("%d %d",&a,&b);
-    (a+b<0)?printf("True"):printf("False");
+    int c=a+b;
+    (c<0)?printf("True"):printf("False");
     printf("%s", welcome());
     return 0;
 }
