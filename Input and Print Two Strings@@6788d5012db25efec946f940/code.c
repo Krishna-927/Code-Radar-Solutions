@@ -5,8 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    char aa[100];
-    fgets(aa,100,stdin);
-    printf("You entered: ");
-    puts(aa);
+    char aa[100],bb[100];
+    scanf("%s %s",&aa,&bb);
+    printf("You entered: %s and %s",aa,bb);
 }
