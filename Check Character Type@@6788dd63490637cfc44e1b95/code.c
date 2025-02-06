@@ -10,7 +10,7 @@ int main() {
  if( (isdigit)c)
  printf("Digit");
  elif((isalpha)c){
-    c=tolower(c);
+    c=(tolower)c;
     if (c=='a' || c=='e' || c =='i' || c=='o' || c=='u'){
         printf("Vowel");
     }
