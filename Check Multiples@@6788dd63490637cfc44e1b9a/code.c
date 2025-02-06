@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int a,b;
     scanf("%d %d",&a,&b);
-    if(a%2==0)printf("Yes");
+    if(a%b==0)printf("Yes");
     else printf("No");
     return 0;
 }
