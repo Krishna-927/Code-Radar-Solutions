@@ -9,7 +9,7 @@ int main() {
  char a;
     scanf("%c",&a);
     if(isalpha(a))
-   { (isupper)a?printf("Uppercase"):printf("Lowercase");  }
+   { isupper(a)?printf("Uppercase"):printf("Lowercase");  }
     else{
     printf("Not an alphabet");  } return 0;
 }
