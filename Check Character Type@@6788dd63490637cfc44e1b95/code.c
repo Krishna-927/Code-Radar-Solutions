@@ -7,8 +7,9 @@ char* welcome() {
 int main() {
     char c;
     scanf("%c",&c);
- if( (isdigit)c)
+ if( (isdigit)c){
  printf("Digit");
+ }
  elif((isalpha)c){
     c=(tolower)c;
     if (c=='a' || c=='e' || c =='i' || c=='o' || c=='u'){
