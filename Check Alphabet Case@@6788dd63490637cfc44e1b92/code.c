@@ -8,7 +8,7 @@ char* welcome() {
 int main() {
  char a;
     scanf("%c",&a);
-    if((isalp)a)
+    if(isalpha(a))
    { (isupper)a?printf("Uppercase"):printf("Lowercase");  }
     else{
     printf("Not an alphabet");  } return 0;
