@@ -8,6 +8,5 @@ int main() {
     int a,b;
     scanf("%d %d",&a,&b);
     (a==b*b)?printf("Yes"):printf("No");
-    printf("%s", welcome());
     return 0;
 }
