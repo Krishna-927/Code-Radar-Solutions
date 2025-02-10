@@ -18,11 +18,11 @@ int main() {
         case '/':
         if (b!=0)
         printf("%d",a/b);
-        else printf("Error");
+        else printf("error");
         break;
         case '*':
         printf("%d",a*b);
-        
+
     }
     return 0;
 }
