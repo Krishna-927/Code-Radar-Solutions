@@ -4,5 +4,5 @@
 int main(){
     int n,b;
     scanf("%d %d",&n,&b);
-    printf("%d",n+pow(x,y));
+    printf("%d",n+pow(2,b));
 }
